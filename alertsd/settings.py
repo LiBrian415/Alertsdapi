@@ -84,11 +84,11 @@ WSGI_APPLICATION = 'alertsd.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'alertsd',
-        'USER': 'admin',
-        'PASSWORD': 'password',
+        'NAME': '',
+        'USER': '',
+        'PASSWORD': '',
         'HOST': '',
-        'PORT': '5432',
+        'PORT': '',
     }
 }
 
